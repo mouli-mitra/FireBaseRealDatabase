@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "368287521446",
+    "firebase_url": "https://fir-realdatabase-645ed-default-rtdb.firebaseio.com",
+    "project_id": "fir-realdatabase-645ed",
+    "storage_bucket": "fir-realdatabase-645ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368287521446:android:e80d55729f186b3724f267",
+        "android_client_info": {
+          "package_name": "com.example.firebaserealdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxNiArwLNYWgSeFR3rLRP4FUM9ouvSH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+
+
 }
+
+
 
 android {
     namespace 'com.example.firebaserealdatabase'
@@ -73,4 +80,5 @@ implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
 // Add the dependency for the Realtime Database library
 // When using the BoM, you don't specify versions in Firebase library dependencies
 implementation("com.google.firebase:firebase-database-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
 }
